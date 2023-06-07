@@ -10,12 +10,12 @@ import Price from "../components/Price";
 import BookButtonAlt from "../components/subcomponents/BookButtonAlt";
 import Booking from "../components/Booking";
 import Gallery from "../components/subcomponents/Gallery";
-import gal1 from "../../../public/interiors/gallery/gallery1.png";
-import gal2 from "../../../public/interiors/gallery/gallery2.png";
-import gal4 from "../../../public/interiors/gallery/gallery4.png";
-import gal5 from "../../../public/interiors/gallery/gallery5.png";
-import gal6 from "../../../public/interiors/gallery/gallery6.png";
-import gal7 from "../../../public/interiors/gallery/gallery7.png";
+import gal1 from "../../../public/interiors/gallery/Gallery1.png";
+import gal2 from "../../../public/interiors/gallery/Gallery2.png";
+import gal4 from "../../../public/interiors/gallery/Gallery4.png";
+import gal5 from "../../../public/interiors/gallery/Gallery5.png";
+import gal6 from "../../../public/interiors/gallery/Gallery6.png";
+import gal7 from "../../../public/interiors/gallery/Gallery7.png";
 
 const Mini = () => {
   const [menu, setMenu] = useState(false);

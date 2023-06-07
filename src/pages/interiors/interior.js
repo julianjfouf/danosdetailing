@@ -10,14 +10,14 @@ import Price from "../components/Price";
 import Booking from "../components/Booking";
 import BookButtonAlt from "../components/subcomponents/BookButtonAlt";
 import Gallery from "../components/subcomponents/Gallery";
-import gal9 from "../../../public/interiors/gallery/gallery9.png";
-import gal10 from "../../../public/interiors/gallery/gallery10.png";
-import gal11 from "../../../public/interiors/gallery/gallery11.png";
-import gal12 from "../../../public/interiors/gallery/gallery12.png";
-import gal13 from "../../../public/interiors/gallery/gallery13.png";
-import gal14 from "../../../public/interiors/gallery/gallery14.png";
-import gal15 from "../../../public/interiors/gallery/gallery15.png";
-import gal16 from "../../../public/interiors/gallery/gallery16.png";
+import gal9 from "../../../public/interiors/gallery/Gallery9.png";
+import gal10 from "../../../public/interiors/gallery/Gallery10.png";
+import gal11 from "../../../public/interiors/gallery/Gallery11.png";
+import gal12 from "../../../public/interiors/gallery/Gallery12.png";
+import gal13 from "../../../public/interiors/gallery/Gallery13.png";
+import gal14 from "../../../public/interiors/gallery/Gallery14.png";
+import gal15 from "../../../public/interiors/gallery/Gallery15.png";
+import gal16 from "../../../public/interiors/gallery/Gallery16.png";
 
 const Interior = () => {
   const [menu, setMenu] = useState(false);
