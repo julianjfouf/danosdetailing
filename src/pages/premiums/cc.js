@@ -112,6 +112,7 @@ const Cc = () => {
             </div>
             <div className="z-[100] w-full pl-4">
               <Image
+              alt="picture"
                 src={gal10}
                 width={1024}
                 height={1024}
@@ -122,6 +123,7 @@ const Cc = () => {
           <div className="flex xl:flex-row flex-col-reverse">
             <div className="z-[100] w-full pr-4">
               <Image
+              alt="picture"
                 src={gal16}
                 width={1024}
                 height={1024}

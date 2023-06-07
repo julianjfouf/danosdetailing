@@ -125,6 +125,7 @@ const Accessory = () => {
           </div>
           <div className="z-[100] w-full pl-4">
             <Image
+            alt="picture"
               src={pic1}
               width={1024}
               height={1024}
@@ -139,6 +140,7 @@ const Accessory = () => {
         >
           <div className="z-[100] w-full pr-4">
             <Image
+            alt="picture"
               src={pic2}
               width={1024}
               height={1024}

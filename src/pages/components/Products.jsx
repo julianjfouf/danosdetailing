@@ -14,19 +14,19 @@ const Products = () => {
       </h1>
       <ul className="flex items-center justify-start w-full">
         <li className="lg:w-1/5 md:w-1/4 sm:w-1/3 xs:w-1/2 w-full">
-          <Image className="object-contain aspect-auto w-full" src={pic1} />
+          <Image alt="picture" className="object-contain aspect-auto w-full" src={pic1} />
         </li>
         <li className="lg:w-1/5 md:w-1/4 sm:w-1/3 xs:w-1/2 w-full">
-          <Image className="object-contain aspect-auto w-full" src={pic2} />
+          <Image alt="picture" className="object-contain aspect-auto w-full" src={pic2} />
         </li>
         <li className="lg:w-1/5 md:w-1/4 sm:w-1/3 xs:w-1/2 w-full">
-          <Image className="object-contain aspect-auto w-full" src={pic3} />
+          <Image alt="picture" className="object-contain aspect-auto w-full" src={pic3} />
         </li>
         <li className="lg:w-1/5 md:w-1/4 sm:w-1/3 xs:w-1/2 w-full">
-          <Image className="object-contain aspect-auto w-full" src={pic4} />
+          <Image alt="picture" className="object-contain aspect-auto w-full" src={pic4} />
         </li>
         <li className="lg:w-1/5 md:w-1/4 sm:w-1/3 xs:w-1/2 w-full">
-          <Image className="object-contain aspect-auto w-full" src={pic5} />
+          <Image alt="picture" className="object-contain aspect-auto w-full" src={pic5} />
         </li>
       </ul>
     </div>

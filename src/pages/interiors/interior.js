@@ -69,6 +69,7 @@ const Interior = () => {
         >
           <div className="z-[100] w-full pr-4">
             <Image
+            alt="picture"
               src={pic1}
               width={1024}
               height={1024}

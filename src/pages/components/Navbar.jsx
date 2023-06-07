@@ -129,6 +129,7 @@ const Navbar = ({ exist, menu, setMenu, darkMode = false }) => {
         >
           {!darkMode ? (
             <Image
+            alt="picture"
               className="translate-y-[10px] z-[0]"
               src={logoBlack}
               height={240}
@@ -136,6 +137,7 @@ const Navbar = ({ exist, menu, setMenu, darkMode = false }) => {
             />
           ) : (
             <Image
+            alt="picture"
               className="translate-y-[10px] z-[0]"
               src={logoWhite}
               height={240}

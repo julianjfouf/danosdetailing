@@ -70,6 +70,7 @@ const Pc = () => {
         >
           <div className="z-[100] w-full pr-4">
             <Image
+            alt="picture"
               src={gal16}
               width={1024}
               height={1024}
