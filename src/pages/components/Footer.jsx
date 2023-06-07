@@ -68,17 +68,17 @@ const Footer = ({ menu }) => {
                 </h1>
                 <div className="flex flex-wrap justify-center">
                   <Image
-                  alt="venmo"
+                    alt="venmo"
                     src={venmo}
                     className="w-[48px] aspect-auto object-contain ml-4"
                   />
                   <Image
-                  alt="zelle"
+                    alt="zelle"
                     src={zelle}
                     className="w-[48px] aspect-auto object-contain ml-4"
                   />
                   <Image
-                  alt="dollars"
+                    alt="dollars"
                     src={dollars}
                     className="w-[48px] aspect-auto object-contain ml-4"
                   />
