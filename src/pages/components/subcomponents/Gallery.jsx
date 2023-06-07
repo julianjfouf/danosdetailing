@@ -10,6 +10,7 @@ const Gallery = ({ images, menu }) => {
         <a
           href="https://www.instagram.com/danosmobiledetailing/"
           target="_blank"
+          rel="noreferrer"
           className="hover:underline"
         >
           @danosmobiledetailing
@@ -20,6 +21,7 @@ const Gallery = ({ images, menu }) => {
         {images.map((image) => (
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.instagram.com/danosmobiledetailing/"
             className="p-1 lg:w-1/5 md:w-1/4 sm:w-1/3 w-1/2 group flex"
           >

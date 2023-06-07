@@ -413,6 +413,7 @@ const Review = ({ src, name, service, review, h }) => {
     <div className="p-1 h-full flex">
       <a
         target="_blank"
+        rel="noreferrer"
         href={h}
         className="flex flex-col items-center rounded min-h-full"
       >

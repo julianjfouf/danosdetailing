@@ -257,21 +257,24 @@ const Navbar = ({ exist, menu, setMenu, darkMode = false }) => {
         <div className="text-neutral-400 absolute bottom-4 flex w-1/4 justify-between border-t-2 pt-4">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.instagram.com/danosmobiledetailing/"
           >
             <FaInstagram className="cursor-pointer hover:text-neutral-100 duration-300" />
           </a>
-          <a target="_blank" href="https://www.facebook.com/nando.zepeda.31">
+          <a target="_blank" rel="noreferrer" href="https://www.facebook.com/nando.zepeda.31">
             <FaFacebook className="cursor-pointer hover:text-neutral-100 duration-300" />
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.tiktok.com/@danosdetailing?is_from_webapp=1&sender_device=pc"
           >
             <FaTiktok className="cursor-pointer hover:text-neutral-100 duration-300" />
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.google.com/search?q=danos%20detailing&rlz=1C1CHBF_enUS994US994&oq=danosdetailing+&aqs=chrome..69i57j0i13i30j0i8i13i30j69i60l2.2254j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=AJOqlzUkoUDaXE9h15XL30_nyoDqSd0ypg:1679177443677&rflfq=1&num=10&rldimm=9022223714700630377&lqi=Cg9kYW5vcyBkZXRhaWxpbmdI8erattO5gIAIWhkQABABGAAYASIPZGFub3MgZGV0YWlsaW5nkgEVY2FyX2RldGFpbGluZ19zZXJ2aWNlqgEiEAEyHhABIhoC_p_EphrJHbU6eDeRKe6jsgT3leTNFm2QouABAA&ved=2ahUKEwiu_624v-b9AhXdIUQIHaKsAO8QvS56BAgOEAE&sa=X&rlst=f#rlfi=hd:;si:9022223714700630377,l,Cg9kYW5vcyBkZXRhaWxpbmdI8erattO5gIAIWhkQABABGAAYASIPZGFub3MgZGV0YWlsaW5nkgEVY2FyX2RldGFpbGluZ19zZXJ2aWNlqgEiEAEyHhABIhoC_p_EphrJHbU6eDeRKe6jsgT3leTNFm2QouABAA;mv:[[37.721529077319026,-121.47605296736208],[37.72116912268096,-121.47650803263795]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14"
           >
             <FaGoogle className="cursor-pointer hover:text-neutral-100 duration-300" />

@@ -194,6 +194,7 @@ const Sliders = () => {
           <a
             href="https://www.instagram.com/danosmobiledetailing/"
             target="_blank"
+            rel="noreferrer"
             className="text-center text-2xl text-neutral-600 hover:underline hover:text-black"
           >
             @danosmobiledetailing
@@ -205,6 +206,7 @@ const Sliders = () => {
             <a
               href="https://www.instagram.com/danosmobiledetailing/"
               target="_blank"
+              rel="noreferrer"
               className="overflow-hidden"
             >
               <h1
@@ -221,6 +223,7 @@ const Sliders = () => {
             <a
               href="https://www.instagram.com/danosmobiledetailing/"
               target="_blank"
+              rel="noreferrer"
               className=""
             >
               <span
