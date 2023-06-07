@@ -22,7 +22,7 @@ const Gallery = ({ images, menu }) => {
         on <FaInstagram />
       </h1>
       <div className="flex w-full flex-wrap justify-center items-start p-4">
-        {images.map((image, i) => (
+        {images?.map((image, i) => (
           <a
             key={i}
             target="_blank"
