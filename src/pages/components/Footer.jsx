@@ -29,9 +29,7 @@ const Footer = ({ menu }) => {
   return (
     <div
       id="contact"
-      className={`bg-[#0e0c0d] duration-500 py-8 px-8 text-neutral-100 flex w-full relative overflow-hidden z-[10000] ${
-        menu ? `translate-x-[25vw]` : null
-      }`}
+      className="bg-[#0e0c0d] duration-500 py-8 px-8 text-neutral-100 flex w-full relative overflow-hidden z-[10000]"
     >
       <div className="flex w-full md:flex-row flex-col-reverse justify-around items-center z-[10000]">
         <div className="flex flex-col max-h-min justify-between md:max-w-min p-8 z-[10000]">
