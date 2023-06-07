@@ -12,8 +12,8 @@ import pic2 from "../../../public/additionals/accessory/headlight/Headlight rest
 import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
 import { FaAngleDown } from "react-icons/fa";
 import gal1 from "../../../public/additionals/accessory/headlight/Headlight 2.jpg";
-import gal2 from "../../../public/additionals/accessory/headlight/headlight after 1.JPG";
-import gal3 from "../../../public/additionals/accessory/headlight/headlight before 1.JPG";
+import gal2 from "../../../public/additionals/accessory/headlight/headlight after 1.jpg";
+import gal3 from "../../../public/additionals/accessory/headlight/headlight before 1.jpg";
 import gal4 from "../../../public/additionals/accessory/headlight/Headlight restoration.jpg";
 import gal5 from "../../../public/additionals/accessory/engine/ENGINE PIC 2.jpg";
 import gal6 from "../../../public/additionals/accessory/engine/ENGINE PIC.jpg";
