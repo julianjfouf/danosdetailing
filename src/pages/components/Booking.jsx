@@ -1,6 +1,11 @@
 import React from "react";
 import Grid from "./subcomponents/Grid";
-import { Google, Instagram, MailOutline, PhoneOutlined } from "@mui/icons-material";
+import {
+  Google,
+  Instagram,
+  MailOutline,
+  PhoneOutlined,
+} from "@mui/icons-material";
 
 const Booking = ({ socials, setSocials }) => {
   return (
@@ -16,35 +21,35 @@ const Booking = ({ socials, setSocials }) => {
         <div className="absolute bg-white rotate-[45deg] w-[2px] h-10" />
         <div className="absolute bg-white rotate-[135deg] w-[2px] h-10" />
       </div>
-      <div className="border py-40 px-20 rounded flex items-center everything opacity-0 duration-300 translate-y-12">
-        <div className="h-full w-1/2 relative">
+      <div className="border p-4 xl:py-40 xl:px-20 rounded flex items-center everything opacity-0 duration-300 translate-y-12">
+        <div className="h-full w-1/2 relative xl:flex flex-col hidden">
           <div className="circle w-[720px] h-[720px] bg-white absolute rounded-full top-0 right-0" />
           <h1 className="text-6xl font-bold pb-10">Book an appointment.</h1>
           <Grid />
         </div>
-        <ul className="w-1/2 flex justify-center flex-col items-center rounded-lg">
+        <ul className="xl:w-1/2 flex justify-center flex-col items-center rounded-lg">
           <div className="flex justify-center flex-col items-start">
             <li className="text-3xl font-bold text-white flex items-center">
               <PhoneOutlined sx={{ fontSize: 50 }} />
-              <span className="text-base text-gray-200 pl-5 font-normal">
+              <span className="text-sm xl:text-base text-gray-200 pl-5 font-normal">
                 (209) 278-9098
               </span>
             </li>
-            <li className="text-3xl font-bold text-white mt-10 flex items-center">
+            <li className="text-xl xl:text-3xl font-bold text-white mt-10 flex items-center">
               <MailOutline sx={{ fontSize: 50 }} />
-              <span className="text-base text-gray-200 pl-5 font-normal">
+              <span className="text-sm xl:text-base text-gray-200 pl-5 font-normal">
                 danosmobiledetailing@gmail.com
               </span>
             </li>
             <li className="text-3xl font-bold text-white mt-10 flex items-center">
               <Instagram sx={{ fontSize: 50 }} />
-              <span className="text-base text-gray-200 pl-5 font-normal">
+              <span className="text-sm xl:text-base text-gray-200 pl-5 font-normal">
                 @danosmobiledetailing
               </span>
             </li>
             <li className="text-3xl font-bold text-white mt-10 flex items-center">
               <Google sx={{ fontSize: 50 }} />
-              <span className="text-base text-gray-200 pl-5 font-normal">
+              <span className="text-sm xl:text-base text-gray-200 pl-5 font-normal">
                 Danos Detailing
               </span>
             </li>

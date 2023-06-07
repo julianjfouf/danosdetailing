@@ -51,22 +51,27 @@ import Booking from "./components/Booking";
 import Products from "./components/Products";
 import BookButton from "./components/subcomponents/BookButton";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
+  const [done, setDone] = useState(false);
   useEffect(() => {
-    const loader = document.querySelector(".loading");
-    const image = document.querySelector(".openingImage");
-    image.classList.add("!opacity-100");
-    setTimeout(() => {
-      image.classList.remove("!opacity-100");
-    }, 1000);
-    setTimeout(() => {
-      loader.classList.add("!opacity-0");
-    }, 2000);
-    setTimeout(() => {
-      loader.classList.add("!z-[-1]");
-    }, 2000);
+    if (!done) {
+      const loader = document.querySelector(".loading");
+      const image = document.querySelector(".openingImage");
+      const screen = document.querySelector(".else");
+      image.classList.add("!opacity-100");
+      screen.classList.add("opacity-0");
+      setTimeout(() => {
+        image.classList.remove("!opacity-100");
+      }, 1000);
+      setTimeout(() => {
+        loader.classList.add("!opacity-0");
+      }, 2000);
+      setTimeout(() => {
+        loader.classList.add("!z-[-1]");
+        screen.classList.remove("opacity-0");
+      }, 2000);
+      setDone(true);
+    }
   }, []);
 
   const [menu, setMenu] = useState(false);
@@ -99,22 +104,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className="fixed flex items-center justify-center top-0 left-0 right-0 h-screen w-screen bg-black z-[10000000000] loading opacity-100 duration-1000">
+        <Image
+          alt="picture"
+          className="openingImage opacity-0 duration-[1000ms] delay-300"
+          src={newLogo}
+          height={480}
+          width={240}
+          priority
+        />
+      </div>
       <main
-        className={`w-screen relative overflow-hidden ${
+        className={`w-screen else relative transition-all duration-500 overflow-hidden ${
           menu ? `h-screen w-screen overflow-hidden` : null
         }`}
       >
-        <div className="mouse absolute h-10 w-10 bottom-0 left-0 rounded-full bg-red-500" />
-        <div className="fixed flex items-center justify-center top-0 left-0 right-0 h-screen bg-black z-[10000000000000000000000000] loading opacity-100 duration-1000">
-          <Image
-            alt="picture"
-            className="openingImage opacity-0 duration-[1000ms] delay-300"
-            src={newLogo}
-            height={480}
-            width={240}
-            priority
-          />
-        </div>
         <Main menu={menu} setMenu={setMenu} setSocials={setSocials} />
         <div className="w-screen min-h-screen flex justify-center items-center bg-white relative">
           <div
@@ -338,7 +342,7 @@ function Reviews() {
               className="object-contain"
               src={Logo}
             />
-            <p className="text-left text-xs md:text-xl max-w-3xl leading-loose">
+            <p className="text-left text-sm md:text-xl max-w-3xl leading-loose">
               Welcome to my car detailing website! My name is Fernando and I am
               a high school student who is passionate about providing the best
               possible car detailing services in Tracy. I started this business
@@ -436,7 +440,7 @@ const Review = ({ src, name, service, review, h }) => {
             <FaStar />
           </span>
           <p className="max-w-sm mt-5 md:text-base text-sm font-bold leading-relaxed">
-            {review}
+            "{review}"
           </p>
           <div>
             <Image

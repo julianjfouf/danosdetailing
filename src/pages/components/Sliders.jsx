@@ -110,7 +110,7 @@ const Sliders = () => {
     return (
       <div
         onClick={left}
-        className="flex items-center cursor-pointer rotate-180 mr-2 z-[1000] border h-10 w-10 rounded-full justify-center"
+        className="flex items-center cursor-pointer rotate-180 mr-2 p-4 z-[1000] border h-10 w-10 rounded-full justify-center"
       >
         <svg
           viewBox="0 0 8 16"
@@ -135,7 +135,7 @@ const Sliders = () => {
     return (
       <div
         onClick={right}
-        className="flex items-center cursor-pointer ml-2 z-[1000] border h-10 w-10 rounded-full justify-center"
+        className="flex items-center cursor-pointer ml-2 p-4 z-[1000] border h-10 w-10 rounded-full justify-center"
       >
         <svg
           viewBox="0 0 8 16"
@@ -183,7 +183,7 @@ const Sliders = () => {
     return (
       <div
         id="works"
-        className="bg-white h-full flex justify-center items-center relative z-[10000000]"
+        className="bg-white h-full flex justify-center items-center relative z-[10000000] px-4"
       >
         <div className="bg-white absolute top-0 h-full w-screen"></div>
         <div className="absolute top-[10%] flex flex-col items-center">
@@ -210,7 +210,7 @@ const Sliders = () => {
               className="overflow-hidden"
             >
               <h1
-                className={`font-bold uppercase text-3xl max-w-lg translate-y-[100%] slideTitle duration-1000 transition-all cursor-pointer`}
+                className={`font-bold uppercase md:text-xl lg:text-3xl max-w-lg translate-y-[100%] slideTitle duration-1000 transition-all cursor-pointer`}
               >
                 {currentSlide[0]?.title}
               </h1>
@@ -345,7 +345,7 @@ const Sliders = () => {
   }
 
   return (
-    <div className="flex pb-48 px-4 max-w-[240px] sm:max-w-[480px] md:max-w-[700px] lg:max-w-[720px] xl:w-full mx-auto justify-center items-center !container relative">
+    <div className="flex pb-48 px-4 max-w-[240px] sm:max-w-[480px] md:max-w-[700px] lg:max-w-[720px] xl:w-full mx-auto justify-center gap-4 items-center !container relative">
       <CustomPrevArrow />
       <Slider className="w-full flex justify-center items-center mx-auto">
         <Slide />
