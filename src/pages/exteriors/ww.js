@@ -10,14 +10,14 @@ import Price from "../components/Price";
 import Booking from "../components/Booking";
 import BookButtonAlt from "../components/subcomponents/BookButtonAlt";
 import Gallery from "../components/subcomponents/Gallery";
-import gal9 from "../../../public/exteriors/gallery/egallery9.png";
-import gal10 from "../../../public/exteriors/gallery/egallery10.png";
-import gal11 from "../../../public/exteriors/gallery/egallery11.png";
-import gal12 from "../../../public/exteriors/gallery/egallery12.png";
-import gal13 from "../../../public/exteriors/gallery/egallery13.png";
-import gal14 from "../../../public/exteriors/gallery/egallery14.png";
-import gal15 from "../../../public/exteriors/gallery/egallery15.png";
-import gal16 from "../../../public/exteriors/gallery/egallery16.png";
+import gal9 from "../../../public/exteriors/gallery/eGallery9.png";
+import gal10 from "../../../public/exteriors/gallery/eGallery10.png";
+import gal11 from "../../../public/exteriors/gallery/eGallery11.png";
+import gal12 from "../../../public/exteriors/gallery/eGallery12.png";
+import gal13 from "../../../public/exteriors/gallery/eGallery13.png";
+import gal14 from "../../../public/exteriors/gallery/eGallery14.png";
+import gal15 from "../../../public/exteriors/gallery/eGallery15.png";
+import gal16 from "../../../public/exteriors/gallery/eGallery16.png";
 import Link from "next/link";
 
 const Ww = () => {
