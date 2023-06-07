@@ -34,10 +34,10 @@ const Footer = ({ menu }) => {
       <div className="flex w-full md:flex-row flex-col-reverse justify-around items-center z-[10000]">
         <div className="flex flex-col max-h-min justify-between md:max-w-min p-8 z-[10000]">
           <h1 className="font-bold text-3xl md:text-6xl xl:text-9xl mb-10 w-full text-center md:text-left z-[10000]">
-            Dano's Detailing
+            Danos Detailing
           </h1>
           <p className="text-xs md:text-sm xl:text-base text-center md:text-left">
-            &copy; 2023 Dano's Detailing
+            &copy; 2023 Danos Detailing
           </p>
         </div>
         <div className="p-8 flex items-center md:flex-row flex-col h-full">
@@ -68,14 +68,17 @@ const Footer = ({ menu }) => {
                 </h1>
                 <div className="flex flex-wrap justify-center">
                   <Image
+                  alt="venmo"
                     src={venmo}
                     className="w-[48px] aspect-auto object-contain ml-4"
                   />
                   <Image
+                  alt="zelle"
                     src={zelle}
                     className="w-[48px] aspect-auto object-contain ml-4"
                   />
                   <Image
+                  alt="dollars"
                     src={dollars}
                     className="w-[48px] aspect-auto object-contain ml-4"
                   />
