@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import Card from "../components/Card";
-import pic1 from "../../../public/exteriors/Ceramic Coating.PNG";
+import pic1 from "../../../public/exteriors/Ceramic Coating.png";
 import pic2 from "../../../public/exteriors/Paint Correction.jpg";
 
 const Index = () => {

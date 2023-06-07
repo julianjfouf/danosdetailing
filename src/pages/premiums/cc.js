@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Image from "next/image";
 import Footer from "../components/Footer";
 import { FaAngleDown } from "react-icons/fa";
-import pic2 from "../../../public/exteriors/Ceramic Coating.PNG";
+import pic2 from "../../../public/exteriors/Ceramic Coating.png";
 import Booking from "../components/Booking";
 import gal9 from "../../../public/exteriors/gallery2/eGallery20.png";
 import gal10 from "../../../public/exteriors/gallery2/eGallery21.jpg";

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "./components/Navbar";
-import HomePic from "/src/assets/IMG_4339.JPG";
+import HomePic from "/src/assets/IMG_4339.jpg";
 import {
   FaAngleDown,
   FaAngleRight,
