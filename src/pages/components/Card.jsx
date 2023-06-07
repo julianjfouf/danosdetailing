@@ -82,9 +82,9 @@ export default function Card({
       >
         <div className="absolute top-0 bg-black left-0 right-0 bottom-0 h-full w-full z-10 opacity-30 overflow-hidden"></div>
         <Image
-          className={`w-full fixed aspect-auto object-cover h-full group-hover:scale-[110%] duration-[5000ms] transition-transform overflow-hidden picture${id} opacity-0`}
+          className={`w-full fixed aspect-auto object-cover h-full overflow-hidden picture${id} opacity-0`}
           style={{
-            transition: "opacity 600ms ease, transform 5000ms ease",
+            transition: "opacity 600ms ease",
           }}
           src={src}
           quality={100}
