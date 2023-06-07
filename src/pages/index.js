@@ -24,7 +24,6 @@ import Logo from "/src/assets/zedano logo black.png";
 import pic1 from "/src/assets/zedano pic 1.jpg";
 import pic2 from "/src/assets/zedano pic 2.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { BrandLogoSlider } from "./components/BrandLogoSlider";
 import Sliders from "./components/Sliders";
 import Footer from "./components/Footer";
 import interiorPic from "/src/assets/G-Wagon interior shot.jpg";
