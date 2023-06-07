@@ -50,6 +50,7 @@ import Grid from "./components/subcomponents/Grid";
 import Booking from "./components/Booking";
 import Products from "./components/Products";
 import BookButton from "./components/subcomponents/BookButton";
+import localFont from "@next/font/local";
 
 export default function Home() {
   const [done, setDone] = useState(false);
