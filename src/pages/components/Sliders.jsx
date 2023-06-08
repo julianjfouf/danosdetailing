@@ -345,9 +345,9 @@ const Sliders = () => {
   }
 
   return (
-    <div className="flex pb-48 px-4 max-w-[240px] sm:max-w-[480px] md:max-w-[700px] lg:max-w-[720px] xl:w-full mx-auto justify-center gap-4 items-center !container relative">
+    <div className="flex pb-48 px-4 xl:w-full justify-between items-center relative">
       <CustomPrevArrow />
-      <Slider className="w-full flex justify-center items-center mx-auto">
+      <Slider className="flex justify-center items-center mx-auto">
         <Slide />
       </Slider>
       <CustomNextArrow />
