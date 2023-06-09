@@ -360,7 +360,7 @@ function Reviews() {
               look forward to working with you soon.
             </p>
           </div>
-          <div className="flex flex-wrap text-center xl:pt-0 pt-24">
+          <div className="flex justify-center flex-wrap text-center xl:pt-0 pt-24">
             <div className="md:w-1/2 flex justify-end">
               <Review
                 src="https://lh3.googleusercontent.com/a/AAcHTtet8Xc6CZYuBeU8TX2IJf8PHrDxlwZw7O5I574_ng=w36-h36-p-rp-mo-br100"

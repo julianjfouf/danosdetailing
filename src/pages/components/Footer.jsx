@@ -152,7 +152,7 @@ const Footer = ({ menu }) => {
             </div>
           </div>
         </div> */}
-        <div className="flex flex-wrap">
+        <div className="flex justify-center flex-wrap">
           <div className="w-full md:w-1/2 p-4 flex">
             <FaClock className="text-4xl" />
             <div className="ml-4">
