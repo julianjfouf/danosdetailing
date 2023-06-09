@@ -183,25 +183,11 @@ const Sliders = () => {
     return (
       <div
         id="works"
-        className="bg-white h-full flex justify-center items-center relative z-[10000000] px-4"
+        className="bg-white min-h-screen h-full flex justify-center items-center relative z-[10000000] px-4"
       >
         <div className="bg-white absolute top-0 h-full w-screen"></div>
-        <div className="absolute top-[10%] flex flex-col items-center">
-          <h1 className="text-black md:text-4xl xs:text-2xl xl:text-6xl font-bold z-[100000000]">
-            Check Out Our Work!
-          </h1>{" "}
-          <br />
-          <a
-            href="https://www.instagram.com/danosmobiledetailing/"
-            target="_blank"
-            rel="noreferrer"
-            className="text-center text-2xl text-neutral-600 hover:underline hover:text-black"
-          >
-            @danosmobiledetailing
-          </a>
-        </div>
 
-        <div className="flex items-center justify-center h-full pt-60 pb-24 flex-col-reverse lg:flex-row gap-5 lg:gap-0 max-w-[240px] sm:max-w-[480px] md:max-w-[720px] xl:w-full xl:max-w-none mx-auto">
+        <div className="flex items-center min-h-screen justify-center h-full pt-60 pb-24 flex-col-reverse lg:flex-row gap-5 lg:gap-0 max-w-[240px] sm:max-w-[480px] md:max-w-[720px] xl:w-full xl:max-w-none mx-auto">
           <div className="lg:w-1/2 flex md:items-start items-center text-center justify-center flex-col md:!text-left">
             <a
               href="https://www.instagram.com/danosmobiledetailing/"
@@ -345,8 +331,22 @@ const Sliders = () => {
   }
 
   return (
-    <div className="flex pb-48 px-4 xl:w-full justify-between items-center relative">
+    <div className="flex pb-48 px-4 gap-4 justify-center min-h-screen items-center relative">
       <CustomPrevArrow />
+      <div className="absolute top-[10%] flex flex-col items-center">
+        <h1 className="text-black md:text-4xl xs:text-2xl xl:text-6xl font-bold z-[100000000]">
+          Check Out Our Work!
+        </h1>{" "}
+        <br />
+        <a
+          href="https://www.instagram.com/danosmobiledetailing/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-center text-2xl text-neutral-600 hover:underline hover:text-black z-[100000000]"
+        >
+          @danosmobiledetailing
+        </a>
+      </div>
       <Slider className="flex justify-center items-center mx-auto">
         <Slide />
       </Slider>

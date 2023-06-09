@@ -9,11 +9,13 @@ import {
   FaInstagram,
   FaLocationArrow,
   FaMapMarker,
+  FaMapMarkerAlt,
   FaMarker,
   FaMoneyBill,
   FaPaypal,
   FaPhone,
   FaTiktok,
+  FaUserAlt,
 } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -40,7 +42,7 @@ const Footer = ({ menu }) => {
             &copy; 2023 Dano's Detailing
           </p>
         </div>
-        <div className="p-8 flex items-center md:flex-row flex-col h-full">
+        {/* <div className="p-8 flex items-center md:flex-row flex-col h-full">
           <div className="flex flex-col items-center md:items-start">
             <div className="flex">
               <FaClock className="xs:text-2xl md:text-4xl xl:text-6xl mr-2" />
@@ -49,7 +51,7 @@ const Footer = ({ menu }) => {
                 <div className="font-light text-neutral-200 text-sm min-w-max">
                   <span className="">
                     MON-SUN <br />
-                    10 AM - 6 PM{" "}
+                    10 AM - 6 PM
                   </span>
                 </div>
               </div>
@@ -59,10 +61,6 @@ const Footer = ({ menu }) => {
                 <FaCreditCard className="text-2xl md:text-4xl xl:text-6xl mr-4" />
               </div>
               <div className="flex flex-wrap flex-col">
-                {/* <Image
-                src={dollars}
-                className="w-[48px] aspect-auto object-contain"
-              /> */}
                 <h1 className="text-xl flex items-center mb-2">
                   Payments
                 </h1>
@@ -151,6 +149,87 @@ const Footer = ({ menu }) => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div> */}
+        <div className="flex flex-wrap">
+          <div className="w-full md:w-1/2 p-4 flex">
+            <FaClock className="text-4xl" />
+            <div className="ml-4">
+              <h1 className="mb-2">Hours</h1>
+              <p className="text-neutral-300">MON-SUN from 10AM-6PM</p>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 p-4 flex">
+            <FaCreditCard className="text-4xl" />
+            <div className="ml-4">
+              <h1>Payments</h1>
+              <div className="flex items-center">
+                <div className="flex w-full items-center">
+                  <Image
+                    className="max-h-[36px] w-full object-contain aspect-auto"
+                    src={zelle}
+                  />
+                  <div className="flex w-full mx-2">
+                    <Image
+                      className="max-h-[60px] w-full object-contain aspect-auto"
+                      src={dollars}
+                    />
+                  </div>
+                  <div className="flex w-full">
+                    <Image
+                      className="max-h-[48px] w-full object-contain aspect-auto"
+                      src={venmo}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 p-4 flex">
+            <FaUser className="text-4xl" />
+            <div className="ml-4">
+              <h1 className="mb-2">Contacts</h1>
+              <div className="text-neutral-400 flex text-xl gap-2 justify-between">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/danosmobiledetailing/"
+                >
+                  <FaInstagram className="cursor-pointer hover:text-neutral-100 duration-300" />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.facebook.com/nando.zepeda.31"
+                >
+                  <FaFacebook className="cursor-pointer hover:text-neutral-100 duration-300" />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.tiktok.com/@danosdetailing?is_from_webapp=1&sender_device=pc"
+                >
+                  <FaTiktok className="cursor-pointer hover:text-neutral-100 duration-300" />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.google.com/search?q=danos%20detailing&rlz=1C1CHBF_enUS994US994&oq=danosdetailing+&aqs=chrome..69i57j0i13i30j0i8i13i30j69i60l2.2254j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=AJOqlzUkoUDaXE9h15XL30_nyoDqSd0ypg:1679177443677&rflfq=1&num=10&rldimm=9022223714700630377&lqi=Cg9kYW5vcyBkZXRhaWxpbmdI8erattO5gIAIWhkQABABGAAYASIPZGFub3MgZGV0YWlsaW5nkgEVY2FyX2RldGFpbGluZ19zZXJ2aWNlqgEiEAEyHhABIhoC_p_EphrJHbU6eDeRKe6jsgT3leTNFm2QouABAA&ved=2ahUKEwiu_624v-b9AhXdIUQIHaKsAO8QvS56BAgOEAE&sa=X&rlst=f#rlfi=hd:;si:9022223714700630377,l,Cg9kYW5vcyBkZXRhaWxpbmdI8erattO5gIAIWhkQABABGAAYASIPZGFub3MgZGV0YWlsaW5nkgEVY2FyX2RldGFpbGluZ19zZXJ2aWNlqgEiEAEyHhABIhoC_p_EphrJHbU6eDeRKe6jsgT3leTNFm2QouABAA;mv:[[37.721529077319026,-121.47605296736208],[37.72116912268096,-121.47650803263795]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14"
+                >
+                  <FaGoogle className="cursor-pointer hover:text-neutral-100 duration-300" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 p-4 flex">
+            <FaMapMarkerAlt className="text-4xl" />
+            <div className="ml-4">
+              <h1 className="mb-2">Locations</h1>
+              <p className="text-neutral-300">
+                Tracy
+                <br /> Mountain House <br /> Lathrop
+              </p>
             </div>
           </div>
         </div>
