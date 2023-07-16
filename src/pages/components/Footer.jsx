@@ -169,17 +169,20 @@ const Footer = ({ menu }) => {
                   <Image
                     className="max-h-[36px] w-full object-contain aspect-auto"
                     src={zelle}
+                    alt="zelle"
                   />
                   <div className="flex w-full mx-2">
                     <Image
                       className="max-h-[60px] w-full object-contain aspect-auto"
                       src={dollars}
+                      alt="dollars"
                     />
                   </div>
                   <div className="flex w-full">
                     <Image
                       className="max-h-[48px] w-full object-contain aspect-auto"
                       src={venmo}
+                      alt="venmo"
                     />
                   </div>
                 </div>

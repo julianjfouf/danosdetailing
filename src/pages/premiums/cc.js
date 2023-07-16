@@ -43,10 +43,10 @@ const Cc = () => {
   return (
     <>
       <Head>
-        <title>Ceramic Coating Service</title>
+        <title>Ceramic Coating Service in Tracy, CA</title>
         <meta
           name="description"
-          content="The official Ceramic Coating Service page for all the information you need about services and packages offered."
+          content="The official Ceramic Coating Service page for all the information you need about services and packages offered in Tracy, CA."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link

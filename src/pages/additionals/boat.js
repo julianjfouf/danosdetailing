@@ -37,10 +37,10 @@ const Boat = () => {
   return (
     <>
       <Head>
-        <title>Boat Detailing Service</title>
+        <title>Boat Detailing Service in Tracy, CA</title>
         <meta
           name="description"
-          content="The official Boat Detailing Service page for all the information you need about services and packages offered."
+          content="The official Boat Detailing Service page for all the information you need about services and packages offered in Tracy, CA."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link

@@ -44,10 +44,10 @@ const Interior = () => {
   return (
     <>
       <Head>
-        <title>Full Interior Service</title>
+        <title>Full Interior Service in Tracy, CA</title>
         <meta
           name="description"
-          content="The official Full Interior Service page for all the information you need about services and packages offered."
+          content="The official Full Interior Service page for all the information you need about services and packages offered in Tracy, CA."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link

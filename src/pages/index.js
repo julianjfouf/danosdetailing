@@ -100,10 +100,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Dano's Detailing</title>
+        <title>Dano's Detailing | Car Detailing in Tracy, CA</title>
         <meta
           name="description"
-          content="The official Dano's Detailing website for all the information you need about services and packages offered."
+          content="The official Dano's Detailing website for all the information you need about services and packages offered in Tracy, CA."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
@@ -125,6 +125,7 @@ export default function Home() {
           height={480}
           width={240}
           priority
+          loading="eager"
         />
       </div>
       <main
@@ -149,12 +150,12 @@ export default function Home() {
           onClick={() => setSocials(!socials)}
           className="fixed bottom-5 right-5 bg-white text-black overflow-hidden text-lg flex justify-center items-center border z-[100000000] cursor-pointer"
         >
-          <a
+          <button
             onClick={() => setSocials(true)}
             className="cursor-pointer uppercase tracking-widest bg-white border-2 border-white text-black py-4 px-6 before:h-full before:w-full before:bg-black before:absolute relative before:left-0 before:top-0 before:content-['Book'] before:text-white before:flex before:items-center before:justify-center before:translate-x-[-150%] hover:before:translate-x-0 before:duration-300 overflow-hidden font-semibold"
           >
             Book
-          </a>
+          </button>
         </div>
         <Booking socials={socials} setSocials={setSocials} />
       </main>

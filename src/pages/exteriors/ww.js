@@ -45,10 +45,10 @@ const Ww = () => {
   return (
     <>
       <Head>
-        <title>Wash & Wax Service</title>
+        <title>Wash & Wax Service in Tracy, CA</title>
         <meta
           name="description"
-          content="The official Wash & Wax Service page for all the information you need about services and packages offered."
+          content="The official Wash & Wax Service page for all the information you need about services and packages offered in Tracy, CA."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
