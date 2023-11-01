@@ -1,38 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<i>Multi-Page Website Made with Next.js and Tailwind CSS</i>
+<div>
+  <h2>Dano's Detailing</h2>
+  <a target="_blank" href="https://danosdetailing.com/">Live Version</a>
+  <br/>
+  <i>As you can probably tell I made this website before I learned design XD. I don't think it's too bad but it's definitely not how I would design it today.</i>
+</div>
+<br/>
+<p>This is a website I designed and developed for my friend's local car detailing businesss so that he would be better able to showcase his product and to ultimately help him secure more customers.</p>
+<h4>Pages</h4>
+<ol>
+  <li>
+    <h5>Home</h5>
+  <ol>
+    <li>
+      Hero: After a loading screen, video shown to intrigue viewer and convey a sense of elegance and high quality nature of work
+    </li>
+    <li>
+      Carousel: Suggests Instagram Account and showcases best works
+    </li>
+    <li>
+      Product Cards: Shows each category of products offered and allows the user to dive deeper into the products they are most interested in
+    </li>
+    <li>
+      Testimonials: Reinforces customer trust via social proof with the usage of testimonial cards from google reviews
+    </li>
+    <li>
+      Products Used: Informs customers of the products used so that they understand what exactly they will be getting
+    </li>
+    <li>
+      Footer: Quick links plus some miscellaneous information that some may find to be important
+    </li>
+  </ol>
+  </li>
+  <li>
+    <h5>Interior Services: choose which interior service you are interested in</h5>
+  <ul>
+    <li>
+      Full Interior Service: package details, pricing, recent works, portfolio, faq, etc.
+    </li>
+      <li>
+      Mini Interior Service: package details, pricing, recent works, portfolio, faq, etc.
+    </li>
+  </ul>
+  </li>
+  <li>
+    <h5>Exterior Services: choose which exterior service you are interested in</h5>
+  <ul>
+    <li>
+      Full Exterior Service: package details, pricing, recent works, portfolio, faq, etc.
+    </li>
+      <li>
+      Wash & Wax Service: package details, pricing, recent works, portfolio, faq, etc.
+    </li>
+  </ul>
+  </li>
+ <li>
+    <h5>Additional Services: choose which additional service you are interested in</h5>
+  <ul>
+    <li>
+      Boat Detailing Service: package details, pricing, recent works, portfolio, faq, etc.
+    </li>
+      <li>
+      Accessory Service: package details, pricing, recent works, portfolio, faq, etc.
+    </li>
+  </ul>
+  </li>
+  <li>
+    <h5>Premium Services: choose which exterior service you are interested in</h5>
+  <ul>
+    <li>
+      Ceramic Coating Service: package details, pricing, recent works, portfolio, faq, etc.
+    </li>
+      <li>
+      Paint Correction Service: package details, pricing, recent works, portfolio, faq, etc.
+    </li>
+  </ul>
+  </li>
+</ol>
